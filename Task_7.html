@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 7</title>
+    <script type="text/javascript" src="js/task_7.js"></script>
+</head>
+<body>
+    <fieldset style="width: 30%">
+        <label for="convert">Convert</label>
+        <input type="number" id="convert">
+        <select id="from">
+            <option value="kg" selected="selected">kg</option>
+            <option value="lb">lb</option>
+        </select>
+        <select id="to">
+            <option value="lb" selected="selected">lb</option>
+            <option value="kg">kg</option>
+        </select>
+        <button type="button" value="convert" onclick= "convertKGtoLB()">Calculate</button><br>
+        <p id="result"></p>
+    </fieldset>
+</body>
+</html>
